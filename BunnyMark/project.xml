@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+    <!-- metadata, make sure 'package' is at least 3 segments (ie. com.mycompany.myproject) -->
+    <meta title="BunnyMark" package="org.openfl.samples.bunnymark" version="1.0.0" company="OpenFL Technologies" />
+
+    <!-- output -->
+    <app file="BunnyMark" main="Main" path="Export" />
+
+    <window background="#333333" fps="60" />
+    <window orientation="portait" />
+    <window width="0" height="0" if="html5" />
+
+    <!-- classpath, haxe libs -->
+    <source path="Source" />
+    <haxelib name="openfl" />
+
+    <!-- assets -->
+    <assets path="Assets/images" rename="images" include="*" />
+    <icon path="Assets/openfl.svg" />
+
+</project>
